@@ -1,19 +1,15 @@
-TypeScript tsconfig.json Demo
-============================
+TypeScript "require" Demo
+=========================
 
-`tsconfig.json`是typescript项目的说明文件，指定`tsc`所需要的各个参数。
+在typescript中使用`require('..')`，有时候会提示`require is not defined`，解决办法是：
+
+```
+npm install -D @types/node
+```
+
+运行:
 
 ```
 npm install
-npm run tsc
-```
-
-或者使用`ts-node`:
-
-```
 npm run demo
 ```
-
-Resources
----------
-- tsconfig详解：<https://www.typescriptlang.org/docs/handbook/tsconfig-json.html>

@@ -1,3 +1,3 @@
-import {capitalize} from 'lodash';
+const {capitalize} = require('lodash');
 
 console.log("Hello, " + capitalize("typescript") + "!");
